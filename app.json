@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "tarefas",
+    "name": "IMC_Teste",
     "slug": "tarefas",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,13 +17,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.leandrosistemas.imctest"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.leandrosistemas.imctest"
     },
     "web": {
       "favicon": "./assets/favicon.png"
